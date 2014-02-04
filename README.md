@@ -7,4 +7,6 @@ This is a minimalistic example of custom camera preview app that uses SurfaceTex
 
 Here, we show front camera image not as a mirror.
 
-Many details like error checking have been skipped for brevity. In the real world, you will open the camera on a separate EventThread, so that the camera callbacks would not interfere with UI thread.     
+Many details like error checking have been skipped for brevity. In the real world, you will open the camera on a separate EventThread, so that the camera callbacks would not interfere with UI thread.
+
+Depends on android-support-v4.jar
